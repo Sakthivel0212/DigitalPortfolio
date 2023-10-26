@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset some default styles for better consistency */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Montserrat', sans-serif; /* Change the font */
+            background-color: #e5fdfb; /* Yellow background */
+            color: #000; /* Black text color */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #ffffff; /* White header background */
+            color: #000000; /* Black text color */
+            padding: 20px 0;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center; /* Center the navigation items */
+            align-items: center;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #000000; /* Black text color */
+            font-weight: bold;
+            font-size: 1.4rem; /* Make the menu items a little smaller */
+            padding: 10px 15px; /* Reduce padding */
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #d6faf7; /* Light green background on hover */
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background-image: url('background.jpg'); /* Add background image */
+            background-size: cover; /* Make sure the image covers the entire section */
+            color: #FFFFF0; /* Yellow text color */
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+        }
+
+        .hero .description {
+            font-size: 1.6rem; /* Slightly smaller text size */
+            margin-bottom: 30px;
+        }
+
+        /* About Me and Skills Section Styles */
+        .about-me {
+            padding: 40px 0 0 0;
+            text-align: center;
+        }
+
+        .about-me h2 {
+            font-size: 2rem;
+            margin-bottom: 0px;
+        }
+
+        .about-me p {
+            font-size: 1.4rem;
+            margin-bottom: 0px;
+        }
+
+        .skills {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 0px;
+        }
+
+        .skills p {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-address {
+            font-size: 1.5rem;
+            color: #FFFFF0; /* Yellow text color */
+            background-color: #000; /* Black background color */
+            padding: 20px; /* Add padding to contact address */
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <main>
+        <section class="hero">
+            <h1>Hi, I am Sakthivel, This is my Portfolio</h1>
+            <p class="description">I am a front-end developer and designer.</p>
+        </section>
+        
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="#about">About Me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section id="about" class="about-me">
+            <h2>About Me & Education</h2>
+            <p>I am a very good leadership person with a strong background in front-end development. I hold a Bachelor's degree in Computer Applications (BCA). Studied in St.Johns College, Palyamkottai.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <p>I have a diverse skill set that includes HTML5, CSS3, JavaScript, responsive web design, and UI/UX design. My expertise in these areas allows me to create user-friendly and visually appealing websites.</p>
+        </section>
+
+        <div class="contact-address">
+            <p id="contact"><b>E-mail:</b> sakthivel757@gmail.com <br> <b>Phone:</b> 85458755637</p>
+        </div>
+    </main>
+</body>
+</html>
