@@ -6,17 +6,14 @@
     <title>Front-End Developer Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset some default styles for better consistency */
         body, h1, h2, p, ul {
             margin: 0;
             padding: 0;
         }
-
-        /* Global Styles */
         body {
-            font-family: 'Montserrat', sans-serif; /* Change the font */
-            background-color: #e5fdfb; /* Yellow background */
-            color: #000; /* Black text color */
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fcf8e5; 
+            color: #003049; 
             line-height: 1.6;
         }
 
@@ -28,39 +25,37 @@
 
         /* Header Styles */
         header {
-            background-color: #ffffff; /* White header background */
-            color: #000000; /* Black text color */
+            background-color: #ffffff;
+            color: #000000; 
             padding: 20px 0;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
         }
 
         nav {
             display: flex;
-            justify-content: center; /* Center the navigation items */
+            justify-content: center;
             align-items: center;
         }
 
         .menu a {
             text-decoration: none;
-            color: #000000; /* Black text color */
+            color: #000000; 
             font-weight: bold;
-            font-size: 1.4rem; /* Make the menu items a little smaller */
-            padding: 10px 15px; /* Reduce padding */
+            font-size: 1.4rem;
+            padding: 10px 15px;
             border-radius: 4px;
             transition: background-color 0.3s ease;
         }
 
         .menu a:hover {
-            background-color: #d6faf7; /* Light green background on hover */
+            background-color: #d6faf7;
         }
-
-        /* Hero Section Styles */
         .hero {
             text-align: center;
             padding: 60px 0;
-            background-image: url('background.jpg'); /* Add background image */
-            background-size: cover; /* Make sure the image covers the entire section */
-            color: #FFFFF0; /* Yellow text color */
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #FFFFF0;
         }
 
         .hero h1 {
@@ -68,11 +63,9 @@
         }
 
         .hero .description {
-            font-size: 1.6rem; /* Slightly smaller text size */
+            font-size: 1.6rem;
             margin-bottom: 30px;
         }
-
-        /* About Me and Skills Section Styles */
         .about-me {
             padding: 40px 0 0 0;
             text-align: center;
@@ -84,8 +77,10 @@
         }
 
         .about-me p {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
             margin-bottom: 0px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
         .skills {
@@ -99,19 +94,47 @@
         }
 
         .skills p {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
             margin-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
         .contact-address {
             font-size: 1.5rem;
-            color: #FFFFF0; /* Yellow text color */
-            background-color: #000; /* Black background color */
-            padding: 20px; /* Add padding to contact address */
+            color: #FFFFF0;
+            background-color: #000;
+            padding: 20px; 
             text-align: center;
             margin-bottom: 2rem;
         }
+        .primary-button {
+            display: inline-block;
+            padding: 12px 24px; /* Increase button padding */
+            font-size: 1.6rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .primary-button {
+            background-color: #ffffff; /* Updated primary button background color */
+            color: #000000;
+            margin-right: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border: none;
+        }
+
+        .primary-button:hover {
+            background-color: #e0e0e0; /* Updated primary button hover color */
+        }
     </style>
+    <script>
+        function message(){
+            alert("Thanks for Hiring me. I would do my best.");
+        }
+    </script>
 </head>
 <body>
     
@@ -120,6 +143,7 @@
         <section class="hero">
             <h1>Hi, I am Sakthivel, This is my Portfolio</h1>
             <p class="description">I am a front-end developer and designer.</p>
+            <a href="#" class="primary-button" onclick="message()"><b>Hire Me</b></a>
         </section>
         
         <header>
